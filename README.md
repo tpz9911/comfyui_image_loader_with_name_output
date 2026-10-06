@@ -14,7 +14,7 @@ When using official ComfyUI load/save nodes, you may encounter several inconveni
 
 **Snapshot**
 
-![Snapshot](/img/snapshot_01.png)
+![Snapshot](/img/snapshot_01.jpg)
 
 This suite provides two complementary nodes:
 * **`Load Image (with Filename Output)`**: Retains the native upload dialog and visual preview while extracting the exact filename stem. It formats paths according to your custom subfolders, pre/suffixes, counters, and timestamps.
