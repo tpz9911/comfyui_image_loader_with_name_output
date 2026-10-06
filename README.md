@@ -12,6 +12,10 @@ When using official ComfyUI load/save nodes, you may encounter several inconveni
 * **Overwriting vs. Tracking Conflicts**: Manually fixing filenames makes it difficult to manage whether repeated runs should overwrite, increment cleanly, or record execution timestamps.
 * **Cumbersome Subdirectory Routing**: Organizing outputs into structured folders is often rigid or unintuitive.
 
+**Snapshot**
+
+![Snapshot](/img/snapshot_01.png)
+
 This suite provides two complementary nodes:
 * **`Load Image (with Filename Output)`**: Retains the native upload dialog and visual preview while extracting the exact filename stem. It formats paths according to your custom subfolders, pre/suffixes, counters, and timestamps.
 * **`Save Image (Exact Name)`**: Saves images strictly according to the incoming filename with zero unwanted suffixes, features overwrite warnings and timestamp fallbacks, preserves workflow metadata, and passes the image through for real-time visual comparison.
